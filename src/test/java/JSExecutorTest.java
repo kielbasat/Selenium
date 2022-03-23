@@ -15,6 +15,6 @@ public class JSExecutorTest extends TestBase{
         executor.executeScript("arguments[0].click()", basePageLink);
 
         WebElement firstName = driver.findElement(By.name("fname"));
-        executor.executeScript("arguments[0].setAttribute('value', 'Bartek')", firstName);
+        executor.executeScript("arguments[0].setAttribute('value', 'Tomek')", firstName);
     }
 }
