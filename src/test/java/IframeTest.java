@@ -1,8 +1,9 @@
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class IframeTest extends TestBase{
+public class IframeTest extends TestBase {
 
     String baseUrl = "https://testeroprogramowania.github.io/selenium/iframe.html";
     By firstNameInputCss = By.cssSelector("#fname");
@@ -10,17 +11,19 @@ public class IframeTest extends TestBase{
     By h1MainPageCss = By.tagName("h1");
 
     @Test
-    public void iFrameTest(){
+    public void iFrameTest() {
 
-       driver.get(baseUrl);
-       driver.switchTo().frame(0);
-       driver.findElement(firstNameInputCss);
-       String h1IframeText = driver.findElement(h1IframeCss).getText();
+        driver.get(baseUrl);
+        WebElement iFrameElement = driver.findElement(By.cssSelector("[src='basics.html']"));
+        driver.switchTo().frame(iFrameElement);
+        //driver.switchTo().frame(0);
+        driver.findElement(firstNameInputCss);
+        String h1IframeText = driver.findElement(h1IframeCss).getText();
 
-       driver.switchTo().defaultContent();
-       String h1MainPageText = driver.findElement(h1MainPageCss).getText();
+        driver.switchTo().defaultContent();
+        String h1MainPageText = driver.findElement(h1MainPageCss).getText();
 
-       Assert.assertEquals(h1IframeText, "Witaj na stronie testowej");
-       Assert.assertEquals(h1MainPageText, "To jest test iframe");
+        Assert.assertEquals(h1IframeText, "Witaj na stronie testowej");
+        Assert.assertEquals(h1MainPageText, "To jest test iframe");
     }
 }
