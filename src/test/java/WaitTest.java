@@ -2,7 +2,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.FluentWait;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -12,7 +11,7 @@ import java.time.Duration;
 import java.util.List;
 import java.util.function.Function;
 
-public class WaitTest extends TestBase {
+public class WaitTest extends BaseTest {
     @Test
     public void sleepTest() throws InterruptedException {
 

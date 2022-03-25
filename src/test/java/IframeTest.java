@@ -3,7 +3,7 @@ import org.openqa.selenium.WebElement;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class IframeTest extends TestBase {
+public class IframeTest extends BaseTest {
 
     String baseUrl = "https://testeroprogramowania.github.io/selenium/iframe.html";
     By firstNameInputCss = By.cssSelector("#fname");

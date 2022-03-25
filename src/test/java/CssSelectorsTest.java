@@ -1,10 +1,7 @@
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-import java.util.List;
-
-public class CssSelectorsTest extends TestBase {
+public class CssSelectorsTest extends BaseTest {
 
     String baseUrl = "https://testeroprogramowania.github.io/selenium/basics.html";
 

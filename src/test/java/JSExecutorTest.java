@@ -3,7 +3,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class JSExecutorTest extends TestBase{
+public class JSExecutorTest extends BaseTest {
     @Test
     public void executeJS(){
 

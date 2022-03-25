@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import java.util.List;
 
-public class SelectorTest extends TestBase {
+public class SelectorTest extends BaseTest {
 
     String baseUrl = "https://testeroprogramowania.github.io/selenium/basics.html";
 

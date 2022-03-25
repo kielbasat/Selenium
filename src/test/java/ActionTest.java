@@ -2,7 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class ActionTest extends TestBase{
+public class ActionTest extends BaseTest {
 
     //By twiceClickBtn = By.cssSelector("#bottom");
 

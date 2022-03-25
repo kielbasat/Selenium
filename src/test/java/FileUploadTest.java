@@ -2,15 +2,13 @@ import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
 import java.io.File;
 import java.io.IOException;
 import java.time.LocalDate;
-import java.time.LocalTime;
 
-public class FileUploadTest extends TestBase {
+public class FileUploadTest extends BaseTest {
 
     int randomNumber = (int) (Math.random()*1000);
 

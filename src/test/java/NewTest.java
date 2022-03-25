@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import java.time.Duration;
 
-public class NewTest extends TestBase {
+public class NewTest extends BaseTest {
 
 
     @Test

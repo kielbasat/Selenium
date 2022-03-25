@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 import static org.testng.Assert.assertEquals;
 
-public class HomeWorkCssSelectorsTest extends TestBase {
+public class HomeWorkCssSelectorsTest extends BaseTest {
 
     By cookiesAgreeBtn = By.cssSelector("#L2AGLb");
     By luckyBtn = By.cssSelector("div.FPdoLc input.RNmpXc");

@@ -3,7 +3,7 @@ import org.testng.annotations.Test;
 
 import java.util.Set;
 
-public class NewWindowTest extends TestBase{
+public class NewWindowTest extends BaseTest {
 
     By clickMeBtnCss = By.cssSelector("#newPage");
     By cookiesBtn = By.cssSelector("#L2AGLb .QS5gu");
