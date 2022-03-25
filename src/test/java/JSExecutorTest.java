@@ -2,6 +2,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
+import pl.testeroprogramowania.BaseTest;
 
 public class JSExecutorTest extends BaseTest {
     @Test

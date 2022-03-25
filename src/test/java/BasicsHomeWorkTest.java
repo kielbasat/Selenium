@@ -7,6 +7,7 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pl.testeroprogramowania.BaseTest;
 
 import java.io.File;
 import java.io.IOException;

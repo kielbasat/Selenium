@@ -1,6 +1,7 @@
 import org.openqa.selenium.*;
 import org.testng.Assert;
 import org.testng.annotations.Test;
+import pl.testeroprogramowania.BaseTest;
 
 import java.time.Duration;
 

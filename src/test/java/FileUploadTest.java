@@ -3,6 +3,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.testng.annotations.Test;
+import pl.testeroprogramowania.BaseTest;
 
 import java.io.File;
 import java.io.IOException;

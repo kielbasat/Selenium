@@ -1,5 +1,6 @@
 import org.openqa.selenium.By;
 import org.testng.annotations.Test;
+import pl.testeroprogramowania.BaseTest;
 
 public class CssSelectorsTest extends BaseTest {
 
